@@ -1,0 +1,43 @@
+╔══════════════════════════════════════════╗
+║      ENVIRONMENTAL MONITORING SCREEN     ║
+╚══════════════════════════════════════════╝
+Location: Karachi, Pakistan
++_______________________________________________________+
+|      CURRENT STATS ||  24 Dec 2023 | 01:54:22 PM     |
++------------------------------------------------------+
+Temperature: 26.90°C
+Weather: haze
+Humidity: 16%
+Wind Speed: 8.23 m/s
+Atmospheric Pressure: 1019.00 hPa
+--------------*****-------------
+
+╔══════════════════════════════════════════╗
+║      ENVIRONMENTAL MONITORING SCREEN     ║
+╚══════════════════════════════════════════╝
+Location: Karachi, Pakistan
++_______________________________________________________+
+|      CURRENT STATS ||  24 Dec 2023 | 01:54:28 PM     |
++------------------------------------------------------+
+Temperature: 26.90°C
+Weather: haze
+Humidity: 16%
+Wind Speed: 8.23 m/s
+Atmospheric Pressure: 1019.00 hPa
+--------------*****-------------
+
+╔══════════════════════════════════════════╗
+║      ENVIRONMENTAL MONITORING SCREEN     ║
+╚══════════════════════════════════════════╝
+Location: Karachi, Pakistan
++_______________________________________________________+
+|      CURRENT STATS ||  24 Dec 2023 | 02:39:50 PM     |
++------------------------------------------------------+
+Temperature: 27.90°C
+Weather: haze
+Humidity: 15%
+Wind Speed: 8.23 m/s
+Wind Direction: 40.00° NE
+Atmospheric Pressure: 1018.00 hPa
+--------------*****-------------
+
