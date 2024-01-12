@@ -11,6 +11,7 @@
 //struct for storing various environment-related parameters obtained from the API response
 
 struct WeatherData {
+
     double temperature;
     char description[50];
     int humidity;
@@ -21,6 +22,7 @@ struct WeatherData {
     double latitude;
     int timezone;
     int visibility;
+
 };
 
 
@@ -32,15 +34,10 @@ void getCurrentDateTime(char *date_time);   //for date,time
 const char *getWindDirection(double degrees);    // for wind directions
 
 
-//size_t WriteMemoryCallback(void *contents, size_t size, size_t nmemb, void *userp);    // for memory allocation
+size_t WriteMemoryCallback(void *contents, size_t size, size_t nmemb, void *userp);      // for memory allocation
 
 
-size_t WriteMemoryCallback(void *contents, size_t size, size_t nmemb, void *userp);
-
-
-
-void getWeatherData(const char *api_link, struct WeatherData *weather_data);
-
+void getWeatherData(const char *api_link, struct WeatherData *weather_data);     // for fetching data from API
 
 
 void storerawdata(const char *raw_data);      // for storing raw data fetched from API

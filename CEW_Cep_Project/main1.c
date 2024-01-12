@@ -1,3 +1,7 @@
+// Main file
+
+
+// important libraries for the project
 #include <stdio.h>
 
 #include <stdlib.h>
@@ -26,6 +30,9 @@
 
 #include "reportgenerator.c"
 
+
+
+// for printing dasboard on both terminal and txt file
 
 void printToTerminalAndFile(FILE *file, const char *format, ...) {
 
@@ -145,9 +152,10 @@ int main() {
 
     
     // pretty printing to print day,date and time
+    
     printToTerminalAndFile(dashboardfile, "+--------------------------------------------------------------------+\n");
     
-    printToTerminalAndFile(dashboardfile, "|          CURRENT STATS ||  %s    |\n", date_time);
+    printToTerminalAndFile(dashboardfile, "|          CURRENT STATS ||  %s     |\n", date_time);
     
     printToTerminalAndFile(dashboardfile, "+--------------------------------------------------------------------+\n");
 
@@ -202,16 +210,13 @@ int main() {
    
    
       
-   // Alert file for mail attachment
-   // file is in append mode to save all previous data with current one's
+   
+   // EMAIL ALERT FILES
    
    
-   
-   
-    // Alert file for mail attachment
-   // file is in append mode to save all previous data with current one's
-   
-   
+   // Attachment file 
+   // send with an email
+   // give the update
    
    
    FILE *info_mailfile = fopen("info_condition.txt", "w");
@@ -223,7 +228,7 @@ int main() {
 
 
 
-    // pretty printing for alert file
+    // pretty printing for information file
     fprintf(info_mailfile, "********************************************************************\n");
     fprintf(info_mailfile, "*                INFORMATION ABOUT LATEST CONDITION                *\n");
     fprintf(info_mailfile, "********************************************************************\n");
@@ -233,8 +238,6 @@ int main() {
 
    
     // CONDITIONS FOR MAIL   
-    // condition: If temperature is greater than 20, send an email with attachment
-    // attachment is "alert_log.txt"
     
     if (weather_data.temperature - 273.15 > 20) {
          fprintf(info_mailfile, "\nBE CAUTIOUS AND STAY SAFE!\n");
@@ -252,6 +255,8 @@ int main() {
    
    
    
+   
+    // Alert file for save all the email logs 
 
    
     FILE *alertlogfile = fopen("alert_log.txt", "a");
@@ -272,9 +277,9 @@ int main() {
 
 
    
-    // CONDITIONS FOR MAIL   
-    // condition: If temperature is greater than 20, send an email with attachment
-    // attachment is "alert_log.txt"
+    // CONDITIONS FOR ALERT
+    
+    // condition: If temperature is greater than 20, send email with attachment
     
     if (weather_data.temperature - 273.15 > 20) {
          fprintf(alertlogfile, "\nAlert generated on: %s\n", date_time);
@@ -282,8 +287,10 @@ int main() {
          fflush(alertlogfile);
 
 
+
          // temperature mail body message
          const char *body = "Dear Citizen,\n\nWe hope this message finds you well. Our environmental monitoring system has detected a significant change in temperature that requires your attention.\nFor your well-being, it is advised to stay hydrated and consider staying indoors to stay cool and safe.\nIn case of any emergency, please contact our Emergency Hotline: 123-456-7890.\n\nSincerly,\nMeteorological Department Of Pakistan";
+         
          
          
          // main mail function which is defined in realtimedata.c file
@@ -295,7 +302,7 @@ int main() {
 
 
      // condition: If humidity is greater than 20, send another email with attachment
-     // attachment is "alert_log.txt"
+
      if (weather_data.humidity > 20) {
          fprintf(alertlogfile, "\nAlert generated on: %s\n", date_time);
          fprintf(alertlogfile, "High humidity detected! Humidity is %d%%\n", weather_data.humidity);
@@ -315,10 +322,10 @@ int main() {
 
 
 
-
    // Close the file
    fclose(alertlogfile);
    fclose(info_mailfile);
+   
    
    //Calling function for Report Generation
    GeneratingReport("raw_data.txt", "environmental_report.txt");
