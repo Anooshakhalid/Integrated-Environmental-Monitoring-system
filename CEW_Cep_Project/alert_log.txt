@@ -1,0 +1,48 @@
+********************************************
+*              AlertLogs                   *
+********************************************
+
+Alert generated on: Tuesday: 09 Jan 2024 | 01:37:29 AM
+High humidity detected! Humidity is 51%
+********************************************
+*              AlertLogs                   *
+********************************************
+
+Alert generated on: Tuesday: 09 Jan 2024 | 01:39:11 AM
+High humidity detected! Humidity is 51%
+********************************************
+*              AlertLogs                   *
+********************************************
+
+Alert generated on: Tuesday: 09 Jan 2024 | 01:40:21 AM
+High humidity detected! Humidity is 51%
+********************************************
+*              AlertLogs                   *
+********************************************
+
+Alert generated on: Tuesday: 09 Jan 2024 | 02:04:57 AM
+High humidity detected! Humidity is 51%
+********************************************
+*              AlertLogs                   *
+********************************************
+
+Alert generated on: Tuesday: 09 Jan 2024 | 02:06:52 AM
+High humidity detected! Humidity is 51%
+********************************************
+*              AlertLogs                   *
+********************************************
+
+Alert generated on: Friday: 12 Jan 2024 | 02:42:11 AM
+High humidity detected! Humidity is 51%
+********************************************
+*              AlertLogs                   *
+********************************************
+
+Alert generated on: Friday: 12 Jan 2024 | 02:52:58 AM
+High humidity detected! Humidity is 51%
+********************************************
+*              AlertLogs                   *
+********************************************
+
+Alert generated on: Friday: 12 Jan 2024 | 02:54:05 AM
+High humidity detected! Humidity is 51%
