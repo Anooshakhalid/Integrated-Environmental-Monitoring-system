@@ -26,4 +26,4 @@ Our program run by Auotomation on our Linux machine 7 days of the week. In each 
 Usage
 -----
 Clone the repository
-Just compile the main.c file and run its executable
+Just compile the main1.c file and run its executable
