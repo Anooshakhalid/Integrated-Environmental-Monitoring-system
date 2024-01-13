@@ -1,9 +1,0 @@
-Writing raw data to file:
-{"coord":{"lon":67.0822,"lat":24.9056},"weather":[{"id":711,"main":"Smoke","description":"smoke","icon":"50n"}],"base":"stations","main":{"temp":289.05,"feels_like":288.71,"temp_min":289.05,"temp_max":289.05,"pressure":1019,"humidity":77},"visibility":4000,"wind":{"speed":2.57,"deg":30},"clouds":{"all":42},"dt":1703627028,"sys":{"type":1,"id":7576,"country":"PK","sunrise":1703643271,"sunset":1703681409},"timezone":18000,"id":1174872,"name":"Karachi","cod":200}
-
-Writing raw data to file:
-{"coord":{"lon":67.0822,"lat":24.9056},"weather":[{"id":711,"main":"Smoke","description":"smoke","icon":"50n"}],"base":"stations","main":{"temp":289.05,"feels_like":288.71,"temp_min":289.05,"temp_max":289.05,"pressure":1019,"humidity":77},"visibility":4000,"wind":{"speed":2.57,"deg":30},"clouds":{"all":42},"dt":1703627167,"sys":{"type":1,"id":7576,"country":"PK","sunrise":1703643271,"sunset":1703681409},"timezone":18000,"id":1174872,"name":"Karachi","cod":200}
-
-Writing raw data to file:
-{"coord":{"lon":67.0822,"lat":24.9056},"weather":[{"id":711,"main":"Smoke","description":"smoke","icon":"50n"}],"base":"stations","main":{"temp":290.05,"feels_like":289.44,"temp_min":290.05,"temp_max":290.05,"pressure":1018,"humidity":63},"visibility":4000,"wind":{"speed":2.57,"deg":30},"clouds":{"all":42},"dt":1703629673,"sys":{"type":1,"id":7576,"country":"PK","sunrise":1703643271,"sunset":1703681409},"timezone":18000,"id":1174872,"name":"Karachi","cod":200}
-
