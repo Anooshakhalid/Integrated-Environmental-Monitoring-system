@@ -5,15 +5,12 @@ Description
 -----------
 Integrated-Environmental-Monitoring-system is a C shell application that retrieve weather data from https://openweathermap.org/ public API.
 
-[image](https://github.com/Anooshakhalid/Integrated-Environmental-Monitoring-system/assets/144916298/16ca2f12-0763-4613-8894-7f3a554e72c3)
-
-
 Dependencies
 ------------
 The application has two main dependencies:
 
-1) https://curl.se/libcurl/ to make an HTTP call to the API and get the data in raw JSON format.
-2) https://github.com/DaveGamble/cJSON, a library used to parse the JSON intp a workable data structure.
+1) libcurl to make an HTTP call to the API and get the data in raw JSON format.
+2) cJSON, a library used to parse the JSON intp a workable data structure.
 While cJSON is included into the project libcurl is not, so be sure that you run the application on a system where libcurl is installed.
 
 Build
